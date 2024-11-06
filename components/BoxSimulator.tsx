@@ -101,7 +101,6 @@ export default function BoxSimulator() {
   return (
     <div className="space-y-8">
       <div className="text-center mb-8">
-        <h2 className="text-3xl font-bold text-white mb-2">Box Opening Simulator</h2>
         <p className="text-gray-400">Choose the number of boxes to open and see your results!</p>
       </div>
 
@@ -112,7 +111,7 @@ export default function BoxSimulator() {
               key={quantity}
               onClick={() => simulateOpenings(quantity)}
               disabled={isSimulating}
-              className="bg-gradient-to-r from-purple-600 to-blue-600 hover:from-purple-700 hover:to-blue-700"
+              className=" h-15 bg-gradient-to-r from-purple-600 to-blue-600 hover:from-purple-700 hover:to-blue-700"
             >
               <div className="text-center">
                 <div className="font-bold">Open {quantity}</div>

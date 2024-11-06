@@ -5,8 +5,8 @@ import { ExternalLink } from 'lucide-react';
 export default function Footer() {
   return (
     <footer className="py-6 text-center text-gray-400">
-      <p className="flex items-center justify-center gap-2">
-        Developed By: 
+      <p className="mx-auto px-4 max-w-full break-words">
+        Contribute with a coffee for more features! ✨ TON Wallet: UQAB6IvUWXwOeOgdQ5_-7m0DSSOiLclsEChesEXlVJWvoU6F
         <a 
           href="https://t.me/pedrodeveloper" 
           target="_blank" 

@@ -6,7 +6,7 @@ export default function Home() {
     <main className="min-h-screen bg-gradient-to-b from-gray-900 to-gray-800 py-12 px-4">
       <div className="max-w-4xl mx-auto">
         <div className="text-center mb-12">
-          <h1 className="text-4xl font-bold text-white mb-4">😼 CatBox: Unbox, Earn, and Swap for TON 💎</h1>
+          <h1 className="text-base md:text-4xl font-bold text-white mb-4">😼 CatBox: Box Opening Simulator 💎</h1>
           <a 
             href="https://t.me/CatBoxGame_bot/app?startapp=3JO02"
             target="_blank"
