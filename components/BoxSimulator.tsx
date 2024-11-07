@@ -157,7 +157,7 @@ export default function BoxSimulator() {
                       {rarity}
                     </span>
                     <span className="text-gray-400">
-                      ({count} - {percentage.toFixed(2)}%)
+                      ({count})
                     </span>
                   </div>
                   <Progress value={percentage} className="h-2" />

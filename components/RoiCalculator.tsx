@@ -40,7 +40,7 @@ export default function RoiCalculator() {
         </div>
 
         <div>
-          <Label htmlFor="investment" className="text-gray-200 mb-2 block">Total Investment (USD)</Label>
+          <Label htmlFor="investment" className="text-gray-200 mb-2 block">Total of Investment in (USD)</Label>
           <Input
             id="investment"
             type="number"
